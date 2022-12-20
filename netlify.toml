@@ -1,0 +1,13 @@
+[[redirects]]
+from = "/docs/*"
+to = "https://sorteio-com.ghost.io/:splat"
+status = 200
+force = true
+headers = {X-Forwarded-Host = "https://sparkly-sprinkles-7d3ad8.netlify.app/"}
+
+[[redirects]]
+from = "/docs"
+to = "https://sorteio-com.ghost.io/"
+status = 200
+force = true
+headers = {X-Forwarded-Host = "https://sparkly-sprinkles-7d3ad8.netlify.app/"}
